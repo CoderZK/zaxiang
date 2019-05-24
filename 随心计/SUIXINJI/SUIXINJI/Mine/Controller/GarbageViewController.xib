@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GarbageViewController">
+            <connections>
+                <outlet property="tableView" destination="zaJ-Qh-awh" id="XcN-Z3-Nqd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCT-nO-7GS">
+                    <rect key="frame" x="0.0" y="617" width="187.5" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="5Ty-tj-P8W"/>
+                    </constraints>
+                    <state key="normal" title="全部恢复">
+                        <color key="titleColor" red="0.46666666670000001" green="0.48627450979999998" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="allRestoreBtn:" destination="-1" eventType="touchUpInside" id="Gp7-DG-BAB"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zaJ-Qh-awh">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="693-uV-aYQ">
+                    <rect key="frame" x="187.5" y="617" width="187.5" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="PpZ-fx-DYm"/>
+                        <constraint firstAttribute="height" constant="50" id="met-uO-AMZ"/>
+                    </constraints>
+                    <state key="normal" title="全部删除">
+                        <color key="titleColor" red="0.59215688710000003" green="0.59214556220000003" blue="0.59215229749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="allDeleteBtn:" destination="-1" eventType="touchUpInside" id="UAG-0G-rOL"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sW4-pD-UEq">
+                    <rect key="frame" x="187" y="627" width="1" height="30"/>
+                    <color key="backgroundColor" red="0.7725490196" green="0.76078431369999999" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="GOk-CC-xE0"/>
+                        <constraint firstAttribute="width" constant="1" id="R8i-fw-HmS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zaJ-Qh-awh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5OQ-w8-1ae"/>
+                <constraint firstItem="lCT-nO-7GS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Vb-gG-M8t"/>
+                <constraint firstItem="693-uV-aYQ" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="E9b-YO-8Si"/>
+                <constraint firstAttribute="trailing" secondItem="zaJ-Qh-awh" secondAttribute="trailing" id="N4B-7j-WVQ"/>
+                <constraint firstItem="sW4-pD-UEq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QX8-jJ-K7j"/>
+                <constraint firstItem="zaJ-Qh-awh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="S7Q-pq-2Lg"/>
+                <constraint firstAttribute="trailing" secondItem="lCT-nO-7GS" secondAttribute="trailing" multiplier="2" id="Ud0-6R-KKC"/>
+                <constraint firstItem="sW4-pD-UEq" firstAttribute="centerY" secondItem="693-uV-aYQ" secondAttribute="centerY" id="b5U-VI-CrI"/>
+                <constraint firstAttribute="trailing" secondItem="693-uV-aYQ" secondAttribute="trailing" id="dXa-Pv-bzq"/>
+                <constraint firstAttribute="bottom" secondItem="lCT-nO-7GS" secondAttribute="bottom" id="iqx-5T-g73"/>
+                <constraint firstItem="lCT-nO-7GS" firstAttribute="top" secondItem="zaJ-Qh-awh" secondAttribute="bottom" id="tmz-BH-cfp"/>
+                <constraint firstItem="693-uV-aYQ" firstAttribute="leading" secondItem="lCT-nO-7GS" secondAttribute="trailing" id="unI-yd-Sf4"/>
+            </constraints>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+</document>

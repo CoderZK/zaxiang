@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+
+target "SUIXINJI" do
+
+pod 'Masonry'  
+pod 'ReactiveObjC'
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+pod 'SDWebImage'
+pod 'TZImagePickerController'
+pod 'YYCache'
+
+
+end

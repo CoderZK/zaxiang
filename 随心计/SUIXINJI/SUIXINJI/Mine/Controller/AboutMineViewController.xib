@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutMineViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="RaO-v8-aWo">
+                    <rect key="frame" x="147.5" y="70" width="80" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="QPN-Z1-6H9"/>
+                        <constraint firstAttribute="width" constant="80" id="ccm-kn-xz9"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="随心计" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPI-yh-qqg">
+                    <rect key="frame" x="166" y="160" width="43" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.47058823529999999" green="0.49019607840000001" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本号：V1.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXI-ES-lmE">
+                    <rect key="frame" x="139.5" y="187" width="96.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.47058823529999999" green="0.49019607840000001" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.随心计是一款非常简洁、实用的日记应用" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDI-h4-RaA">
+                    <rect key="frame" x="30" y="234" width="315" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.47058823529999999" green="0.49019607840000001" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2随心计可以发表文字。记录生活的点点滴滴，让时光留下你的印记。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwQ-vf-8z3">
+                    <rect key="frame" x="30" y="271" width="315" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.47058823529999999" green="0.49019607840000001" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.随心计记对与用户的隐私保护非常严密，您可以放心使用。谢谢！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZM-dL-fN9">
+                    <rect key="frame" x="30" y="314.5" width="315" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.47058823529999999" green="0.49019607840000001" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QXI-ES-lmE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="69s-M0-RqU"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="xwQ-vf-8z3" secondAttribute="trailing" constant="30" id="8DT-dP-sJt"/>
+                <constraint firstItem="YPI-yh-qqg" firstAttribute="top" secondItem="RaO-v8-aWo" secondAttribute="bottom" constant="10" id="8TT-VQ-5Vf"/>
+                <constraint firstItem="YPI-yh-qqg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9A7-ha-kxc"/>
+                <constraint firstItem="RaO-v8-aWo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OAJ-tz-hln"/>
+                <constraint firstItem="xwQ-vf-8z3" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="RRv-nG-IyI"/>
+                <constraint firstItem="xwQ-vf-8z3" firstAttribute="top" secondItem="XDI-h4-RaA" secondAttribute="bottom" constant="20" id="RtP-pY-gij"/>
+                <constraint firstItem="RaO-v8-aWo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SEG-lh-ay1"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="XDI-h4-RaA" secondAttribute="trailing" constant="30" id="Vbw-J7-vfW"/>
+                <constraint firstItem="uZM-dL-fN9" firstAttribute="top" secondItem="xwQ-vf-8z3" secondAttribute="bottom" constant="10" id="Vxv-OA-37F"/>
+                <constraint firstItem="QXI-ES-lmE" firstAttribute="top" secondItem="YPI-yh-qqg" secondAttribute="bottom" constant="10" id="XLZ-o4-FJg"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="uZM-dL-fN9" secondAttribute="trailing" constant="30" id="eCk-Ow-Cod"/>
+                <constraint firstItem="uZM-dL-fN9" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="h3H-ZY-aJb"/>
+                <constraint firstItem="RaO-v8-aWo" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="50" id="iBS-0W-tjs"/>
+                <constraint firstItem="XDI-h4-RaA" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="w7d-xd-LbI"/>
+                <constraint firstItem="XDI-h4-RaA" firstAttribute="top" secondItem="QXI-ES-lmE" secondAttribute="bottom" constant="30" id="wrI-eL-VBI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="132" y="154.27286356821591"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="1024" height="1024"/>
+    </resources>
+</document>
